@@ -1,9 +1,11 @@
 # Module: MMM-Proximity
-The `MMM-Proximity` program is a <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> addon module.
-This module uses 2 HC-SR04 ultrasonic sensors to determing hand position to produce a "Proximity Left", "Proximity Right", or "Press"
+The `MMM-Proximity` program is a <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> add on module.
+This is heavily based on <a href="https://github.com/mochman/MMM-Swipe.git">MMM-Swipe</a> module. I have modified this to work with my specific conditions.
+I strongly recommend referring that module because it provides much more functionality and is more easy to calibrate.
+This module uses 2 HC-SR04 ultrasonic sensors to determining hand position to produce a "Proximity Left", "Proximity Right", or "Press"
 
 ## Installing the module
-1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/mochman/MMM-Proximity.git`.  A new folder labeled `MMM-Proximity` will appear, cd into it.
+1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/prasanthsasikumar/MMM-Proximity.git`.  A new folder labeled `MMM-Proximity` will appear, cd into it.
 2. Execute `npm install` to install the dependencies
 3. You will need to run `sudo npm start` instead of `npm start` in order to read/write to the GPIO pins.
 
